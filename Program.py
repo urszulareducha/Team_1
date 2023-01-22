@@ -22,3 +22,13 @@ elif region=="USA":
 else:
     print("Wybierz region")
     region=input("Skad pochodzisz (Europa/USA):")
+
+plec = input("Jesteś kobietą czy mężczyzną? Wpisz K / M")
+if plec == "K":
+    print("Witaj")
+elif plec == "M":
+    print("Witaj")
+else:
+    print("Nie rozpoznałem płci. Podaj proszę czy jesteś K czy M?")
+
+
