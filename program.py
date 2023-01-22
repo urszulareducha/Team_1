@@ -11,11 +11,13 @@ elif wiek>40:
 else:
   exit("Jesteś za młoda/y na alkohol. Zapraszamy na disney.com")
 
-plec = str()
-plec = input("podaj płeć ")
+gender = str()
+gender = input("podaj płeć ")
 
-if plec == "K" and wiek>30:
+if gender == "K" and wiek>30:
     print("Hej, odbierz swój pierwszy aperol spritz za darmo")
 else:
 	exit()
+
+    
 
