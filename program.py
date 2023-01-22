@@ -4,8 +4,6 @@ wiek = input("Podaj wiek użytkownika jako liczbe calkowitą:")
 if wiek.isdigit() == False:
 	exit("Wiek musi być liczbą albo podana liczba nie jest calkowita")
 wiek=int(wiek)
-if wiek>=120
-    print("Nikt tyle nie żyje, nie kłam z wiekiem")
 if wiek>=18 and wiek<=40:
 	print("Witaj w naszej apce z alkoholem, zapraszamy do zakupów")
 elif wiek>40:
@@ -32,9 +30,11 @@ elif plec == "M":
     print("Witaj")
 else:
     print("Nie rozpoznałem płci. Podaj proszę czy jesteś K czy M?")
+plec = str()
+plec = input("podaj płeć ")
+
 if plec == "K" and wiek>30:
     print("Hej, odbierz swój pierwszy aperol spritz za darmo")
 else:
 	exit()
-
 
