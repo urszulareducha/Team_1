@@ -11,3 +11,24 @@ elif wiek>40:
 	print("Uważaj w Twoim wieku nie przasadzaj ze spożyciem")
 else:
   exit("Jesteś za młoda/y na alkohol. Zapraszamy na disney.com")
+
+region=input("Skad pochodzisz (Europa/USA):")
+
+region=str(region)
+if region=="Europa":
+    print("Cześć! Hola! Ciao!")
+elif region=="USA":
+    print("Hello!")
+else:
+    print("Wybierz region")
+    region=input("Skad pochodzisz (Europa/USA):")
+
+plec = input("Jesteś kobietą czy mężczyzną? Wpisz K / M")
+if plec == "K":
+    print("Witaj")
+elif plec == "M":
+    print("Witaj")
+else:
+    print("Nie rozpoznałem płci. Podaj proszę czy jesteś K czy M?")
+
+
